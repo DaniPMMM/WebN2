@@ -1,0 +1,68 @@
+nav {
+    background-color: rgb(184, 69, 184);
+}
+
+body {
+    background-color: grey;
+    font-family: monospace;
+}
+
+#navItemSelec {
+    color: black;
+}
+
+
+#intro {
+    text-align: center;
+}
+
+#pIntro {
+    text-align: center;
+}
+
+.filho {
+    background-color: #dbd8e3;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.filhoDois {
+    text-align: center;
+    background-color:#5c5470;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+}
+
+#imgHTML {
+    float: right;
+}
+
+#descrihtml {
+    text-align: center;
+}
+
+hr {
+    margin-right: 200px;
+    margin-left: 200px;
+    border: 10px solid rgb(61, 36, 61);
+    border-radius: 40px;
+}
+
+h1 {
+    padding-top: 20px;
+
+}
+
+#logos {
+    background-color: rgb(58, 34, 34);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
