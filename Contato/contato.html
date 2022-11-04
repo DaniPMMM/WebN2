@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(234, 249, 251, 0.63) 0.1%, rgba(239, 249, 251, 0.63)90.1%);
+        }
+
+
+        button {
+            float: left;
+        }
+
+        hr {
+            color: coral;
+            border-width:10px;
+            border-radius: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav id="titulo" class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand"> 
+                <img src="imagens/logo.png" alt="LogoFatec" width="50" height="50">
+            </a>
+            <button tye="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">Assuntos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">Entre em contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">Redes Sociais</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--Main Content Area-->
+    <div class="container">
+        <section class="mb-4">
+            <h2 class="h1-responsive font-weight-bold text-center my-5"> Contact Us </h2>
+            <p class="text-center w-responsive mx-auto mb-5">Possui alguma dúvida, sugestão ou gostaria de entrar em contato conosco? Ora, sinta-se livre!
+                Assinale os campos abaixo e deposite seu comentário, iremos responder assim que possível :)
+            </p>
+            <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contactform">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" name="Nome" class="form-control">
+                                    <label for="Nome">Nome</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" name="email" class="form-control">
+                                    <label for="Nome">Email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form-mb-0">
+                                    <input type="text" name="subject" class="form-control">
+                                    <label for="subject">Assunto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" name="message" rows="3" class="form-control md-textarea"></textarea>
+                                    <labe>Seu comentário</labe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center text-md-left">
+                            <button class="btn btn-primary" type="submit"> Enviar </button>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-md-3 text-center text-dark">
+                    <ul class="list-unstyled mb-0">
+
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>São Paulo, São Paulo</p></li>
+                            <hr>
+                            <br>
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>GitHub </p></li>
+                            <hr>
+                            <br>
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>(Email)</p></li>
+                            <hr>
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
